@@ -1690,7 +1690,7 @@ db = mysql.connector.connect(
     host="192.168.1.16",
     #user="root",
     user="acesso_rede",
-    passwd="61765561ic",
+    passwd="senha",
     database="simec_agenda",
 )
 cursor = db.cursor(buffered=True)
